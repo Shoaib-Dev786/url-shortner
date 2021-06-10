@@ -10,6 +10,7 @@ const app = express();
 
 const port = process.env.PORT || 3000;
 
+// DB Connection
 mongoose.connect("mongodb://localhost:27017/shrinkUrls_app", {
     useCreateIndex: true,
     useNewUrlParser: true,
